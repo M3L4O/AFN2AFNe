@@ -19,4 +19,4 @@ F: 2
 
 Em que o Q representa os estados, de 0 até N, já T, representa o alfabeto, P as transições, q o estado inicial e, por fim F representa o estado final.
 
-Todas as essa chaves acima descritas devem ser acompanhadas de `:`, já as transições são represetadas por `<estado>, <simbolo> -><estado alcançado>`, sendo a palavra vazia represetada por `ε`. 
+Todas as essa chaves acima descritas devem ser acompanhadas de `:`, já as transições são represetadas por `<estado>, <simbolo> -> <estado alcançado>`, sendo a palavra vazia represetada por `ε`. 
