@@ -2,10 +2,9 @@
 
 Para executar a aplicação é necessário inserir o seguinte comando:
 
-`
+```
 python main.py -f <arquivo do AFNe> -w <a palavra que deseja testar>
-
-`
+```
 
 O arquivo que representa o AFNe pode ser escrito da seguinte forma:
 
