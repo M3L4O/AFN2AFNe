@@ -31,9 +31,9 @@ def main():
     result = afn.recognize(args.word)
 
     output = (
-        f"A palavra fornecida foi ACEITA pelo automato m abaixo:\n{str(afn)}."
+        f"A palavra '{args.word}' foi ACEITA pelo automato abaixo:\n\n{str(afn)}."
         if result
-        else f"A palavra fornecida NÃO FOI ACEITA pelo automato abaixo:\n{str(afn)}"
+        else f"A palavra '{args.word}' NÃO FOI ACEITA pelo automato abaixo:\n\n{str(afn)}"
     )
 
     print(output)
